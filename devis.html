@@ -13,7 +13,6 @@
 <style>body{background-image:url("images/borne-limite-propriete-terrain-abello.jpg")}</style>
 </head>
 <body>
-<div class="maquette-etiquette">maquette v16</div>
 
 <header class="entete"></header>
 <div class="fil"></div>
@@ -85,6 +84,16 @@
           </div>
 
           <div class="champ">
+            <label for="souhait">Vous souhaitez <span class="req">*</span></label>
+            <select id="souhait" name="Vous souhaitez" required>
+              <option value="">— Choisissez —</option>
+              <option>Un devis</option>
+              <option>Un renseignement</option>
+              <option>Un projet de division</option>
+            </select>
+          </div>
+
+          <div class="champ">
             <label for="nature">Nature de la demande <span class="req">*</span></label>
             <select id="nature" name="Nature de la demande" required>
               <option value="">— Choisissez —</option>
@@ -125,7 +134,6 @@
           <button class="bouton-envoi" type="submit">Envoyer ma demande</button>
         </form>
 
-        <p class="a-valider" style="margin-top:1.6rem"><strong>À activer avant la mise en ligne :</strong> ce formulaire est prêt mais doit être « branché » au moment de l'hébergement pour que les demandes arrivent dans la boîte mail du cabinet (opération de quelques minutes). En attendant, il ne transmet encore rien : privilégier le téléphone ou l'e-mail ci-contre.</p>
       </div>
 
       <!-- ======================= COLONNE DROITE ======================= -->

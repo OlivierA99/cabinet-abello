@@ -11,8 +11,6 @@ body{margin:0;font-family:var(--police);font-size:16px;line-height:1.65;color:#3
 img{max-width:100%;height:auto;display:block}
 a{color:inherit}
 a:focus-visible,button:focus-visible{outline:3px solid var(--bleu-acier);outline-offset:2px}
-.maquette-etiquette{position:fixed;top:10px;right:10px;background:var(--bleu-fonce);color:#fff;
-  padding:.5rem .9rem;font:700 12px/1 Arial;border-radius:3px;z-index:200;letter-spacing:.03em}
 
 /* ---------- ENTÊTE + MENUS DÉROULANTS ---------- */
 .entete{background:rgba(250,248,244,.72);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
@@ -183,7 +181,6 @@ figure.illus figcaption{font-size:.8rem;color:var(--gris);text-align:center;marg
   .hero-texte{padding:2rem 1.4rem}
 }
 @media (min-width:861px){ .mobile-email{display:none} }
-@media (max-width:860px){ .maquette-etiquette{top:auto;bottom:10px;right:10px;opacity:.85;font-size:11px;padding:.35rem .6rem} }
 @media (max-width:520px){
   :root{--gouttiere:1rem}
   .galerie{grid-template-columns:1fr}
