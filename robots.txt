@@ -1,0 +1,9 @@
+# Cabinet ABELLO - geometre-expert - www.abellogeometre.fr
+# Tout le site est ouvert aux robots.
+# Les pages merci.html et 404.html ne sont volontairement PAS bloquees ici :
+# elles portent une balise noindex, que le robot doit pouvoir lire.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.abellogeometre.fr/sitemap.xml

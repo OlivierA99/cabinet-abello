@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Devis gratuit — géomètre-expert Mantes-la-Jolie et Limay</title>
+<meta name="description" content="Demandez un devis gratuit et sans engagement au Cabinet ABELLO, géomètre-expert à Mantes-la-Jolie et Limay : bornage, division, copropriété, topographie.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>body{background-image:url("images/borne-limite-propriete-terrain-abello.jpg")}</style>
+</head>
+<body>
+<div class="maquette-etiquette">maquette v16</div>
+
+<header class="entete"></header>
+<div class="fil"></div>
+
+<div class="hero">
+  <div class="hero-fond" style="background:linear-gradient(105deg,rgba(20,32,24,.78) 0%,rgba(20,32,24,.5) 55%,rgba(20,32,24,.25) 100%),url('images/bornage-geometre-abello.jpg') center 55%/cover no-repeat"></div>
+  <div class="hero-texte">
+    <p class="surtitre">Votre projet</p>
+    <h1>Demande de devis</h1>
+    <p>Décrivez-nous votre besoin en quelques lignes. Nous vous répondons personnellement, avec une estimation claire et sans engagement.</p>
+    <div class="hero-cles">
+      <span>Devis gratuit</span>
+      <span>Sans engagement</span>
+      <span>Réponse personnalisée</span>
+    </div>
+  </div>
+</div>
+
+<main>
+  <section class="bloc">
+    <div class="form-deux">
+
+      <!-- ======================= FORMULAIRE ======================= -->
+      <div>
+        <h2>Parlez-nous de votre projet</h2>
+        <p>Les champs marqués d'un <span style="color:#a01818">*</span> sont nécessaires pour vous répondre. Plus votre description est précise, plus notre estimation sera juste.</p>
+
+        <form class="formulaire" name="devis" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="merci.html">
+          <input type="hidden" name="form-name" value="devis">
+          <p style="display:none"><label>Ne pas remplir : <input name="bot-field"></label></p>
+
+          <div class="champ">
+            <label for="qualite">Vous êtes</label>
+            <select id="qualite" name="Vous êtes">
+              <option>Un particulier</option>
+              <option>Un professionnel / une entreprise</option>
+              <option>Un notaire</option>
+              <option>Une collectivité / administration</option>
+              <option>Un architecte / maître d'œuvre</option>
+              <option>Autre</option>
+            </select>
+          </div>
+
+          <div class="champ-2">
+            <div class="champ">
+              <label for="nom">Nom et prénom <span class="req">*</span></label>
+              <input id="nom" name="Nom" type="text" required autocomplete="name">
+            </div>
+            <div class="champ">
+              <label for="tel">Téléphone <span class="req">*</span></label>
+              <input id="tel" name="Téléphone" type="tel" required autocomplete="tel">
+            </div>
+          </div>
+
+          <div class="champ">
+            <label for="email">Adresse e-mail <span class="req">*</span></label>
+            <input id="email" name="E-mail" type="email" required autocomplete="email">
+          </div>
+
+          <div class="champ-2">
+            <div class="champ">
+              <label for="commune">Commune du terrain / du bien <span class="req">*</span></label>
+              <input id="commune" name="Commune" type="text" required placeholder="Ex. Mantes-la-Jolie">
+            </div>
+            <div class="champ">
+              <label for="cadastre">Références cadastrales</label>
+              <input id="cadastre" name="Références cadastrales" type="text" placeholder="Ex. Section AB n° 125 (si connu)">
+            </div>
+          </div>
+
+          <div class="champ">
+            <label for="nature">Nature de la demande <span class="req">*</span></label>
+            <select id="nature" name="Nature de la demande" required>
+              <option value="">— Choisissez —</option>
+              <optgroup label="Foncier">
+                <option>Bornage et mitoyenneté</option>
+                <option>Servitudes</option>
+                <option>Division de propriété</option>
+                <option>Document d'arpentage (DMPC)</option>
+                <option>Division en volumes</option>
+                <option>Copropriété (EDD, tantièmes, loi Carrez)</option>
+              </optgroup>
+              <optgroup label="Géomatique">
+                <option>Topographie et nivellement</option>
+                <option>Implantation</option>
+                <option>Relevés d'intérieurs et façades</option>
+                <option>Cubatures et terrassements</option>
+                <option>Auscultation d'ouvrages</option>
+              </optgroup>
+              <optgroup label="Urbanisme">
+                <option>Division en vue de construire</option>
+                <option>Permis d'aménager</option>
+                <option>Certificat d'urbanisme</option>
+              </optgroup>
+              <option>Je ne sais pas / autre demande</option>
+            </select>
+          </div>
+
+          <div class="champ">
+            <label for="message">Décrivez votre projet <span class="req">*</span></label>
+            <textarea id="message" name="Message" required placeholder="Quelques lignes sur votre besoin, vos délais éventuels, le contexte (vente, construction, litige de voisinage…)."></textarea>
+          </div>
+
+          <label class="consent">
+            <input type="checkbox" name="Consentement" required>
+            <span>J'accepte que ces informations soient utilisées par le Cabinet ABELLO pour traiter ma demande. Elles ne sont ni cédées ni revendues. Voir la <a href="confidentialite.html">politique de confidentialité</a>. <span class="req">*</span></span>
+          </label>
+
+          <button class="bouton-envoi" type="submit">Envoyer ma demande</button>
+        </form>
+
+        <p class="a-valider" style="margin-top:1.6rem"><strong>À activer avant la mise en ligne :</strong> ce formulaire est prêt mais doit être « branché » au moment de l'hébergement pour que les demandes arrivent dans la boîte mail du cabinet (opération de quelques minutes). En attendant, il ne transmet encore rien : privilégier le téléphone ou l'e-mail ci-contre.</p>
+      </div>
+
+      <!-- ======================= COLONNE DROITE ======================= -->
+      <aside>
+        <ul class="rassurance">
+          <li><span class="puce">€</span><span><strong>Devis gratuit et sans engagement</strong>Vous savez à quoi vous attendre avant toute intervention.</span></li>
+          <li><span class="puce">✓</span><span><strong>Un seul interlocuteur</strong>Le géomètre-expert vous suit du premier appel au document signé.</span></li>
+          <li><span class="puce">◷</span><span><strong>Réponse rapide</strong>Nous revenons vers vous dès l'étude de votre demande.</span></li>
+          <li><span class="puce">⚑</span><span><strong>Deux bureaux dans le Mantois</strong>Mantes-la-Jolie et Limay, au plus près de vos terrains.</span></li>
+        </ul>
+
+        <div class="contact-direct">
+          <p style="font-weight:600;color:var(--bleu-fonce);font-family:var(--police-titre);font-size:1.05rem">Vous préférez nous joindre directement ?</p>
+          <p><strong>Mantes-la-Jolie</strong> — 3, place Saint-Maclou<br><a href="tel:+33130334178">01.30.33.41.78</a></p>
+          <p><strong>Limay</strong> — 17, rue de l'Église<br><a href="tel:+33134770981">01.34.77.09.81</a></p>
+          <p>E-mail : <a href="mailto:cabinet.abello@orange.fr">cabinet.abello@orange.fr</a></p>
+        </div>
+
+        <div class="contact-direct">
+          <p style="font-weight:600;color:var(--bleu-fonce);font-family:var(--police-titre);font-size:1.05rem">Avant de demander un devis</p>
+          <p>Vous vous demandez ce qui fait le prix d'une intervention ? Nous l'expliquons poste par poste, sans langue de bois.</p>
+          <p><a href="combien-coute-un-bornage.html">Combien coûte un bornage ? →</a></p>
+        </div>
+
+        <div class="contact-direct" style="text-align:center">
+          <p style="font-weight:600;color:var(--bleu-fonce);font-family:var(--police-titre);font-size:1.05rem">Ma carte de visite</p>
+          <img src="images/qr-carte-de-visite-olivier-abello-geometre-expert.png" alt="QR code de la carte de visite d'Olivier ABELLO, géomètre-expert : scannez-le pour enregistrer nos coordonnées" loading="lazy" style="width:200px;height:200px;display:block;margin:.4rem auto">
+          <p style="font-size:.9rem">Scannez ce code avec l'appareil photo de votre téléphone : nos coordonnées s'enregistrent directement dans vos contacts.</p>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+</main>
+
+<footer class="pied"></footer>
+<script src="site.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Cabinet ABELLO - geometre-expert - Mantes-la-Jolie et Limay (78) -->
+  <!-- 25 pages indexables. Ne PAS ajouter merci.html, 404.html (noindex permanent) -->
+  <!-- ni corps-de-rue.html (simple redirection vers topographie.html). -->
+
+  <!-- Le cabinet -->
+  <url><loc>https://www.abellogeometre.fr/</loc></url>
+  <url><loc>https://www.abellogeometre.fr/presentation.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/geometre-expert.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/archives.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/moyens-techniques.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/recrutement.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/activites.html</loc></url>
+
+  <!-- Foncier -->
+  <url><loc>https://www.abellogeometre.fr/bornage.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/division.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/division-construire.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/dmpc.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/servitudes.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/copropriete.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/eddv.html</loc></url>
+
+  <!-- Geomatique -->
+  <url><loc>https://www.abellogeometre.fr/topographie.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/implantation.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/releves.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/cubatures.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/auscultation.html</loc></url>
+
+  <!-- Urbanisme -->
+  <url><loc>https://www.abellogeometre.fr/permis-amenager.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/autorisations-urbanisme.html</loc></url>
+
+  <!-- Prix et contact -->
+  <url><loc>https://www.abellogeometre.fr/combien-coute-un-bornage.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/devis.html</loc></url>
+
+  <!-- Pages legales -->
+  <url><loc>https://www.abellogeometre.fr/mentions-legales.html</loc></url>
+  <url><loc>https://www.abellogeometre.fr/confidentialite.html</loc></url>
+
+</urlset>

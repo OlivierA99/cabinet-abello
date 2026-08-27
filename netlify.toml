@@ -1,0 +1,9 @@
+# Configuration Netlify - site du Cabinet ABELLO
+# Une page = une seule adresse : on desactive la reecriture "Pretty URLs",
+# pour que /bornage.html reste la seule forme, celle du sitemap et des liens internes.
+
+[build.processing]
+  skip_processing = false
+
+[build.processing.html]
+  pretty_urls = false
