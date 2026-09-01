@@ -22,7 +22,7 @@ var CABINET = {
   limay     : { adresse:"17 rue de l'Église 78520 LIMAY",             tel:"01.34.77.09.81", telLien:"+33134770981" },
   email     : "cabinet.abello@orange.fr",
   logoOge   : "images/logo-geometre-expert-noir-gris-20cm-site-cabinet-abello.jpg",
-  logo      : "images/leonardo-phoenix-10-a-minimalist-logo-design-for-cabinet-abell-451-site-cabinet-abello.jpg",
+  logo      : "images/logo-boussole-cabinet-abello-geometre-expert.jpg",
   /* Réseaux sociaux affichés dans le pied de page (ajoutés le 23/08/2026).
      Pour en retirer un : supprimer sa ligne. L'ordre du tableau est l'ordre affiché. */
   reseaux   : [
