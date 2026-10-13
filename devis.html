@@ -59,6 +59,7 @@
               <option>Un notaire</option>
               <option>Une collectivité / administration</option>
               <option>Un architecte / maître d'œuvre</option>
+              <option>Un syndic / gestionnaire de biens</option>
               <option>Autre</option>
             </select>
           </div>
@@ -107,6 +108,7 @@
               <option>Un devis</option>
               <option>Un renseignement</option>
               <option>Un projet de division</option>
+              <option>Une demande d'archives</option>
             </select>
           </div>
 
@@ -114,25 +116,25 @@
             <label for="nature">Nature de la demande <span class="req">*</span></label>
             <select id="nature" name="Nature de la demande" required>
               <option value="">— Choisissez —</option>
-              <optgroup label="Foncier">
-                <option>Bornage et mitoyenneté</option>
-                <option>Servitudes</option>
-                <option>Division de propriété</option>
-                <option>Document d'arpentage (DMPC)</option>
-                <option>Division en volumes</option>
-                <option>Copropriété (EDD, tantièmes, loi Carrez)</option>
+              <optgroup label="Terrain">
+                <option>Connaître ou fixer mes limites (bornage ou délimitation)</option>
+                <option>Vendre ou détacher une partie de mon terrain (division)</option>
+                <option>Créer un ou plusieurs terrains à bâtir (division, permis d'aménager)</option>
+                <option>Diviser une propriété en lots déjà bâtis</option>
+                <option>Un droit de passage (servitude)</option>
+                <option>Un plan de mon terrain (plan topographique)</option>
               </optgroup>
-              <optgroup label="Géomatique">
-                <option>Topographie et nivellement</option>
-                <option>Implantation</option>
-                <option>Relevés d'intérieurs et façades</option>
-                <option>Cubatures et terrassements</option>
-                <option>Auscultation d'ouvrages</option>
+              <optgroup label="Mon bâtiment">
+                <option>Créer une copropriété (plans, tantièmes et EDD)</option>
+                <option>Modifier une copropriété (tantièmes et EDD)</option>
+                <option>Mesurer une surface (loi Carrez, SHAB, surface de plancher, H1)</option>
+                <option>Plans d'un bâtiment : intérieurs, façades, coupes (relevés d'architecture)</option>
               </optgroup>
-              <optgroup label="Urbanisme">
-                <option>Division en vue de construire</option>
-                <option>Permis d'aménager</option>
-                <option>Certificat d'urbanisme</option>
+              <optgroup label="Construction et génie civil">
+                <option>Implanter une construction (implantation)</option>
+                <option>Volumes de terre à déplacer (cubatures)</option>
+                <option>Diviser un ensemble immobilier en volumes (EDDV)</option>
+                <option>Suivre les déformations d'un ouvrage (auscultation)</option>
               </optgroup>
               <option>Je ne sais pas / autre demande</option>
             </select>
@@ -144,7 +146,7 @@
           </div>
 
           <label class="consent">
-            <input type="checkbox" name="Consentement" required>
+            <input type="checkbox" name="Consentement" value="Oui" required>
             <span>J'accepte que ces informations soient utilisées par le Cabinet ABELLO pour traiter ma demande. Elles ne sont ni cédées ni revendues. Voir la <a href="confidentialite.html">politique de confidentialité</a>. <span class="req">*</span></span>
           </label>
 
@@ -167,12 +169,6 @@
           <p><strong>Mantes-la-Jolie</strong> — 3, place Saint-Maclou<br><a href="tel:+33130334178">01.30.33.41.78</a></p>
           <p><strong>Limay</strong> — 17, rue de l'Église<br><a href="tel:+33134770981">01.34.77.09.81</a></p>
           <p>E-mail : <a href="mailto:cabinet.abello@orange.fr">cabinet.abello@orange.fr</a></p>
-        </div>
-
-        <div class="contact-direct">
-          <p style="font-weight:600;color:var(--bleu-fonce);font-family:var(--police-titre);font-size:1.05rem">Avant de demander un devis</p>
-          <p>Vous vous demandez ce qui fait le prix d'une intervention ? Nous l'expliquons poste par poste, sans langue de bois.</p>
-          <p><a href="combien-coute-un-bornage.html">Combien coûte un bornage ? →</a></p>
         </div>
 
         <div class="contact-direct" style="text-align:center">
